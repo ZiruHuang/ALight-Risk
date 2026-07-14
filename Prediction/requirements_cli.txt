@@ -1,0 +1,10 @@
+# Core Python dependencies for the ALight-Risk command-line predictor
+numpy
+pandas
+biopython
+abnumber
+joblib
+scikit-learn
+
+# iFeature is used as an external script and should be installed separately.
+# The scikit-learn version should match the version used to serialize the supplied models.

@@ -1,0 +1,89 @@
+# ---- Pipeline working directories (created at runtime) ----
+# Each pipeline (Pipeline/kappa, Pipeline/lambda) generates these next to
+# main_*.sh. Keep them out of version control.
+1.Data/
+1.Data_bk/
+2.Training_Data/
+2.5_Baseline_model/
+3.iFeature/
+4.MRMD3.0/
+4.MRMD3.0_bk/
+5.MRMD_Result/
+6.Model/
+7.TrainingScore/
+Result/
+.checkpoints/
+
+# Pipeline local configuration (user-specific paths)
+Pipeline/*/pipeline_config.env
+pipeline_config.env
+
+# Prediction intermediate / output
+alight_risk_result/
+alight_risk_intermediate/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ---- R ----
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
+
+# ---- Perl ----
+*.pl.bak
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+*.bak
+*.orig
