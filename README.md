@@ -155,4 +155,4 @@ For the full predictor reference, see [Prediction/README_CLI.md](Prediction/READ
 
 ## Citation
 
-If you use this repository in your research, please cite the accompanying article (see the manuscript this repository accompanies).
+-
